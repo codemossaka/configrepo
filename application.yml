@@ -1,0 +1,5 @@
+spring.application.name=service-one
+server.port=8081
+spring.cloud.zookeeper.discovery.enabled=true
+spring.cloud.zookeeper.connect-string= localhost:2181
+logging.level.org.apache.zookeeper.ClientCnxn= WARN
